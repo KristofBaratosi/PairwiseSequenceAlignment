@@ -18,7 +18,7 @@ ui <- fluidPage(
     column(2, numericInput("mismatchscore", "Mismatch", value = -2, min = -100, max = 100)),
     column(2, numericInput("gapOpening", "Gap Opening", value = -8, min = -100, max = 100)),
     column(2, numericInput("gapExtension", "Gap Extension", value = -2, min = -100, max = 100)),
-    column(4, selectInput("pid","Percentage Identity Calculation Method",c("PID1","PID2","PID3","PID4"),selected = "PID4"))
+    column(4, selectInput("pid","Percent Identity Calculation Method",c("PID1","PID2","PID3","PID4"),selected = "PID4"))
   ),
   fluidRow(
     column(6,textAreaInput("seq1", "Sequence 1",placeholder = "Enter the first nucleotide sequence here" ,width = "100%",rows = 4)), 
