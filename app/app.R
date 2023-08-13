@@ -21,8 +21,8 @@ ui <- fluidPage(
     column(4, selectInput("pid","Percent Identity Calculation Method",c("PID1","PID2","PID3","PID4"),selected = "PID4"))
   ),
   fluidRow(
-    column(6,textAreaInput("seq1", "Sequence 1",placeholder = "Enter the first nucleotide sequence here" ,width = "100%",rows = 4)), 
-    column(6,textAreaInput("seq2", "Sequence 2",placeholder = "Enter the second nucleotide sequence here" ,width = "100%",rows = 4))
+    column(6,textAreaInput("seq1", "Sequence 1",placeholder = "Enter the first DNA sequence here" ,width = "100%",rows = 4)), 
+    column(6,textAreaInput("seq2", "Sequence 2",placeholder = "Enter the second DNA sequence here" ,width = "100%",rows = 4))
   ),
   fluidRow(
     column(4, offset = 4, align = "center",
